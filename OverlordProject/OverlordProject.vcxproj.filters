@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Materials\ColorMaterial.cpp" />
+    <ClCompile Include="Materials\SpikeyMaterial.cpp" />
+    <ClCompile Include="Materials\DiffuseMaterial.cpp" />
+    <ClCompile Include="Materials\UberMaterial.cpp" />
+    <ClCompile Include="Materials\SkinnedDiffuseMaterial.cpp" />
+    <ClCompile Include="Materials\Shadow\DiffuseMaterial_Shadow.cpp" />
+    <ClCompile Include="Materials\Shadow\SkinnedDiffuseMaterial_Shadow.cpp" />
+    <ClCompile Include="CourseObjects\Exam\KitchenScene.cpp" />
+    <ClCompile Include="CourseObjects\Exam\Chef.cpp" />
+    <ClCompile Include="CourseObjects\Exam\Selectable\Interactable.cpp" />
+    <ClCompile Include="CourseObjects\Exam\Selectable\Interactable\KitchenIsle.cpp" />
+    <ClCompile Include="CourseObjects\Exam\Selectable\Interactable\Stove.cpp" />
+    <ClCompile Include="CourseObjects\Exam\Selectable\PickUp.cpp" />
+    <ClCompile Include="CourseObjects\Exam\Selectable\PickUp\Ingredient.cpp" />
+    <ClCompile Include="CourseObjects\Exam\Selectable\Interactable\ChoppingBlock.cpp" />
+    <ClCompile Include="CourseObjects\Exam\Selectable\PickUp\Container.cpp" />
+    <ClCompile Include="CourseObjects\Exam\Selectable\Interactable\IngredientCrate.cpp" />
+    <ClCompile Include="CourseObjects\Exam\PP\PostHighlight.cpp" />
+    <ClCompile Include="CourseObjects\Exam\Selectable.cpp" />
+    <ClCompile Include="CourseObjects\Exam\Selectable\Interactable\TrashCan.cpp" />
+    <ClCompile Include="CourseObjects\Exam\Selectable\Interactable\DeliveryIsle.cpp" />
+    <ClCompile Include="CourseObjects\Exam\Recipe.cpp" />
+    <ClCompile Include="CourseObjects\Exam\ScoreDisplay.cpp" />
+    <ClCompile Include="CourseObjects\Exam\TimerDisplay.cpp" />
+    <ClCompile Include="CourseObjects\Exam\Selectable\Interactable\PlateReturnIsle.cpp" />
+    <ClCompile Include="CourseObjects\Exam\MainMenuScene.cpp" />
+    <ClCompile Include="CourseObjects\Exam\PauseMenuDisplay.cpp" />
+    <ClCompile Include="CourseObjects\Exam\ControlsSchemaScene.cpp" />
+    <ClCompile Include="CourseObjects\Exam\ScoreScene.cpp" />
+    <ClCompile Include="CourseObjects\Exam\ProgressBar.cpp" />
+    <ClCompile Include="CourseObjects\Exam\Table.cpp" />
+    <ClCompile Include="CourseObjects\Exam\Chair.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Materials\ColorMaterial.h" />
+    <ClInclude Include="Materials\SpikeyMaterial.h" />
+    <ClInclude Include="Materials\DiffuseMaterial.h" />
+    <ClInclude Include="Materials\UberMaterial.h" />
+    <ClInclude Include="Materials\SkinnedDiffuseMaterial.h" />
+    <ClInclude Include="Materials\Shadow\DiffuseMaterial_Shadow.h" />
+    <ClInclude Include="Materials\Shadow\SkinnedDiffuseMaterial_Shadow.h" />
+    <ClInclude Include="CourseObjects\Exam\KitchenScene.h" />
+    <ClInclude Include="CourseObjects\Exam\Chef.h" />
+    <ClInclude Include="CourseObjects\Exam\Selectable\Interactable.h" />
+    <ClInclude Include="CourseObjects\Exam\Selectable\Interactable\KitchenIsle.h" />
+    <ClInclude Include="CourseObjects\Exam\Selectable\Interactable\Stove.h" />
+    <ClInclude Include="CourseObjects\Exam\Selectable\PickUp.h" />
+    <ClInclude Include="CourseObjects\Exam\Selectable\PickUp\Ingredient.h" />
+    <ClInclude Include="CourseObjects\Exam\Selectable\Interactable\ChoppingBlock.h" />
+    <ClInclude Include="CourseObjects\Exam\Selectable\PickUp\Container.h" />
+    <ClInclude Include="CourseObjects\Exam\Selectable\Interactable\IngredientCrate.h" />
+    <ClInclude Include="CourseObjects\Exam\PP\PostHighlight.h" />
+    <ClInclude Include="CourseObjects\Exam\Selectable.h" />
+    <ClInclude Include="CourseObjects\Exam\Selectable\Interactable\TrashCan.h" />
+    <ClInclude Include="CourseObjects\Exam\Selectable\Interactable\DeliveryIsle.h" />
+    <ClInclude Include="CourseObjects\Exam\Recipe.h" />
+    <ClInclude Include="CourseObjects\Exam\ScoreDisplay.h" />
+    <ClInclude Include="CourseObjects\Exam\TimerDisplay.h" />
+    <ClInclude Include="CourseObjects\Exam\Selectable\Interactable\PlateReturnIsle.h" />
+    <ClInclude Include="CourseObjects\Exam\MainMenuScene.h" />
+    <ClInclude Include="CourseObjects\Exam\PauseMenuDisplay.h" />
+    <ClInclude Include="CourseObjects\Exam\ControlsSchemaScene.h" />
+    <ClInclude Include="CourseObjects\Exam\ScoreScene.h" />
+    <ClInclude Include="CourseObjects\Exam\ProgressBar.h" />
+    <ClInclude Include="CourseObjects\Exam\Table.h" />
+    <ClInclude Include="CourseObjects\Exam\Chair.h" />
+  </ItemGroup>
+</Project>
